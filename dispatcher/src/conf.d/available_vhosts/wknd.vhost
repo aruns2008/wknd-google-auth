@@ -52,7 +52,7 @@ Include conf.d/variables/custom.vars
 		DispatcherPassError		1
 	</IfModule>
 	<IfModule mod_rewrite.c>
-		RewriteEngine	on
+        RewriteEngine	on
 		Include conf.d/rewrites/rewrite.rules
 	</IfModule>
     ErrorDocument 404 ${404_PAGE}
